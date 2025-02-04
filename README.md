@@ -18,3 +18,7 @@ This project implements the given UI/UX designs using HTML, CSS, and JavaScript.
 1. Clone the repository:
    git clone https://github.com//Mamta-yadav/Basic_Art_Gallery.git
 2. Open index.html in a browser.
+
+## 🚀 Deployment
+The project is live at: [Live Demo](https://shimmering-brioche-90504a.netlify.app/)
+
