@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Digital Art Gallery</title>
+  </head>
+  <body>
+    <button class="menu-toggle">☰</button>
+
+    <nav class="sidebar">
+      <div class="logo">LOGO</div>
+      <div class="nav-item">
+        <i>🏠</i>
+        <span>Home</span>
+      </div>
+      <div class="nav-item">
+        <i>🔍</i>
+        <span>Explore</span>
+      </div>
+      <div class="nav-item">
+        <i>⭐</i>
+        <span>Featured</span>
+      </div>
+      <div class="nav-item">
+        <i>📈</i>
+        <span>Trending</span>
+      </div>
+      <div class="nav-item">
+        <i>🆕</i>
+        <span>New Arrivals</span>
+      </div>
+      <div class="nav-item">
+        <i>🎨</i>
+        <span>Exhibitions</span>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <header class="header">
+        <button class="header-button">Talk to Expert</button>
+        <button class="header-button">User</button>
+        <button class="header-button">🔔</button>
+      </header>
+
+      <section class="hero" style="background-image: url('/images/0.jpg')">
+        <h1>Digital Art Gallery</h1>
+        <p>
+          Step into a world where imagination knows no bounds. Our gallery is a
+          haven for art lovers, showcasing a diverse collection of contemporary
+          and classical artworks from emerging and established artists. Each
+          piece tells a story, evoking emotions and inspiring creativity.
+        </p>
+      </section>
+
+      <div class="gallery-grid">
+        <!-- Placeholder images -->
+        <div class="gallery-item">
+          <img src="/images/1.jpg" alt="Art 1" />
+        </div>
+        <div class="gallery-item">
+          <img src="/images/2.jpg" alt="Art 2" />
+        </div>
+        <div class="gallery-item">
+          <img src="/images/3.jpg" alt="Art 3" />
+        </div>
+        <div class="gallery-item">
+          <img src="/images/4.jpg" alt="Art 4" />
+        </div>
+        <div class="gallery-item">
+          <img src="/images/5.jpg" alt="Art 5" />
+        </div>
+        <div class="gallery-item">
+          <img src="/images/6.jpg" alt="Art 6" />
+        </div>
+        <div class="gallery-item">
+          <img src="/images/7.jpg" alt="Art 7" />
+        </div>
+        <div class="gallery-item">
+          <img src="/images/8.jpg" alt="Art 8" />
+        </div>
+      </div>
+    </main>
+
+    <nav class="bottom-nav">
+    <div class="bottom-nav-items">
+        <a href="#" class="bottom-nav-item active">
+            <i>🏠</i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="bottom-nav-item">
+            <i>🔍</i>
+            <span>Explore</span>
+        </a>
+        <a href="#" class="bottom-nav-item">
+            <i>⭐</i>
+            <span>Featured</span>
+        </a>
+        <a href="#" class="bottom-nav-item">
+            <i>📈</i>
+            <span>Trending</span>
+        </a>
+        <a href="#" class="bottom-nav-item">
+            <i>🆕</i>
+            <span>New</span>
+        </a>
+    </div>
+</nav>
+
+<script>
+// Add active state to bottom navigation items
+const bottomNavItems = document.querySelectorAll('.bottom-nav-item');
+bottomNavItems.forEach(item => {
+    item.addEventListener('click', () => {
+        bottomNavItems.forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+    });
+});
+</script>
+  </body>
+</html>
