@@ -1,3 +1,20 @@
 # Basic_Art_Gallery
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Mamta-yadav/Basic_Art_Gallery)
+## 🚀 Project Overview
+This project implements the given UI/UX designs using HTML, CSS, and JavaScript. It ensures full responsiveness for web and mobile views.
+
+## 📌 Features
+- Fully responsive design (Desktop, Tablet, Mobile)
+- Modular and maintainable code
+- Deployed on Netlify
+
+## 🛠 Tech Stack
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+
+
+## 📦 Setup Instructions
+1. Clone the repository:
+   git clone https://github.com//Mamta-yadav/Basic_Art_Gallery.git
+2. Open index.html in a browser.
